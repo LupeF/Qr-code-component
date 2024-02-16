@@ -1,0 +1,23 @@
+body{
+    background-color: hsl(220, 15%, 55%);
+    width: 85%;
+    margin: 4rem auto;
+
+}
+#card-container{
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 1.3em;
+    text-align: center;
+    font-family:  sans-serif;
+}
+#card-container h1{
+    font-size: 22px;
+}
+#card-container img{
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+}
